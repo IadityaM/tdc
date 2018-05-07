@@ -50,7 +50,7 @@ limitations under the License.
 
   <!-- Start Navbar -->
   <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 ">
-    <div role="button" class="pr2 "><a on="tap:hero.scrollTo"><amp-img class="icon " alt="Welcome" layout="responsive" src="img/logo2.png "></amp-img></a>
+    <div role="button" class="pr2 "><a on="tap:hero.scrollTo"><amp-img class="icon " layout="responsive" src="img/logo2.png "></amp-img></a>
     </div>
     <nav class="ampstart-headerbar-nav ampstart-nav" id ="mainNav">
       <ul class="list-reset  m0 p0 flex  nowrap">
@@ -66,8 +66,8 @@ limitations under the License.
   <div  class=" center">
   <!-- Start Fullpage Hero -->
   <figure  id="hero" class="ampstart-image-fullpage-hero m0 relative mb4">
-    <amp-img width="404" height="720" alt="Welcome to Beck &amp; Galo Modern American Cuisine" layout="responsive" src="img/themes_2/hero.jpg" media="(max-width: 415px)"></amp-img>
-    <amp-img height="720" alt="Welcome to Beck &amp; Galo Modern American Cuisine" layout="fixed-height" src="img/themes_2/hero.jpg" media="(min-width: 416px)"></amp-img>
+    <amp-img width="404" height="720"layout="responsive" src="img/themes_2/hero.jpg" media="(max-width: 415px)"></amp-img>
+    <amp-img height="720"  layout="fixed-height" src="img/themes_2/hero.jpg" media="(min-width: 416px)"></amp-img>
     <figcaption class="absolute top-0 right-0 bottom-0 left-0">
       <header class="p3">
         <h1 class="ampstart-fullpage-hero-heading mb3">
@@ -84,8 +84,8 @@ limitations under the License.
   </figure>
   <!-- End Fullpage Hero -->
   </div>
-  
-   <main id="content" role="main" >
+
+  <main id="content" role="main" >
       <article class="px3">
             <h2 id="story" class="my4 font-custom theme2-anchored">The Road To Disruption: TDC</h2>
             <p class="mb1 ampstart-dropcap">The Disruption Challenge is a part of the Sustainable Future Initiative by the Sustainable Innovation Foundation. We believe in accomplishing great things, one step at a time. Hence we follow a simple success mantra - I3DEA: Initiate, Ideate, Innovate, Disrupt, Engage and Amaze ©, each denoting the checkpoints of a successful startup journey. And we guide the participant startups with us based on this mantra. TDC aims to bring a fresh perspective to investment and incubation with these corner stones. We bring together potential startups and the industry associates to accelerate both their growths multifold in a congenial and healthy environment. </p>
@@ -104,15 +104,15 @@ limitations under the License.
             <div class="my4 mxn3 center">
               <!-- Start Image with heading -->
               <figure class="ampstart-image-with-heading xs-hide sm-hide m0 relative mb4" id="upcoming">
-                <amp-img class="cur" src="img/ecell_0605.jpg" on="tap:lightbox" role="button" width="600" height="450" alt="Happy Hour Monday through Friday 5 PM" layout="responsive"></amp-img>
+                <amp-img class="cur" src="img/connects_soon.jpg" on="tap:lightbox" role="button" width="600" height="450" layout="responsive"></amp-img>
                 <figcaption class="absolute right-0 bottom-0">
-                  <header class="ampstart-image-heading px2 py2 line-height-4"><h2 class="h1 bold">Current Connect</h2><p class="h4">Sunday | 6th May | 4PM</p></header>
+                  <header class="ampstart-image-heading px2 py2 line-height-4"><h2 class="h1 bold">Current Connect</h2><p class="h4">Coming Soon!</p></header>
                 </figcaption>
               </figure>
               <div class="ampstart-image-with-heading lg-hide md-hide m0 relative mb4" id="upcoming_mob">
-                <amp-img src="img/ecell_0605_dark.jpg" on="tap:lightbox" role="button" width="600" height="450" alt="Happy Hour Monday through Friday 5 PM" layout="responsive"></amp-img>
+                <amp-img src="img/connects_soon.jpg" on="tap:lightbox" role="button" width="600" height="450" layout="responsive"></amp-img>
                 <figcaption class="relative right-0 bottom-0 left-0">
-                  <header class="ampstart-image-heading px2 py2 line-height-4"><h2 class="h1 bold">Current Connect</h2><p class="h4">Sunday | 6th May | 4PM</p></header>
+                  <header class="ampstart-image-heading px2 py2 line-height-4"><h2 class="h1 bold">Current Connect</h2><p class="h4">Under organization!</p></header>
                 </figcaption>
               </div>
               <!-- End Image with heading -->
@@ -121,16 +121,29 @@ limitations under the License.
             <section id="locations">
             <h2  class="my4 font-custom theme2-anchored ">Locations &amp; Disruption Hours</h2>
             <div class=" mb4">
-              <h3 class="mb1">E-cell connect #1</h3>
-              <p class="mb0">DATE - 6 May, 2018</p>
-              <p class="mb0">TIME - 4 pm onwards</p>
-              <p class="mb0">VENUE - Dunkin Donuts, CP near Metro gate 6.</p>
+              <h3 class="mb1">Upcoming connects | E-cell connect #2</h3>
+              <p class="mb0">We are as excited as you and we will soon update the location and timings!</p>
+              <!-- <p class="mb0">TIME - 4 pm onwards</p>
+              <p class="mb0">VENUE - Dunkin Donuts, CP near Metro gate 6.</p> !-->
             </div>
            </section>
- 
+           <div class="light">
+              <amp-image-lightbox id="past1" layout="nodisplay">
+                <div align="right" tabindex="0">
+                  <h3>
+                    <button class="ampstart-btn rounded" on="tap:schedule.close"><i class="fa fa-times"></i></button>
+                  </h3>
+                  <p align="center"> 
+                      <amp-img style="max-width: 650px; max-height: 800px; margin-bottom: 60px" src="events-schedule.png" alt="Events Schedule for AMITECH'18" layout="responsive" height="65em" width="50em">
+                      </amp-img> 
+                  </p>
+                 </div>
+              </amp-image-lightbox>   
+          </div>
             <h2 id="gallery" class="my4 font-custom theme2-anchored">Past Connects & Events</h2>
             <amp-carousel  class="my2 mxn3 cur" height="200" layout="fixed-height" type="carousel">
-                <amp-img src="img/themes_2/past1.jpg" width="300" height="200" alt="Dining area" on="tap:lightbox" role="button" tabindex="0"></amp-img>
+                <amp-img src="img/ecell_0605.jpg" width="300" height="200" on="tap:past1" role="button" tabindex="0" ></amp-img>
+                <amp-img src="img/themes_2/past1.jpg" width="300" height="200" on="tap:lightbox" role="button" tabindex="0"></amp-img>
                 
             </amp-carousel>
       </article>
